@@ -128,8 +128,9 @@ header .column span {
 }
 
 @media screen and (max-width: 615px) {
-    .wrapper {
+    .wrapper {        
         rotate: 90deg;
+        width: calc(90vw + 400px);
     }
     .piano-keys .white {
         width: 50px;
